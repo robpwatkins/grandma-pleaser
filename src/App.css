@@ -19,27 +19,26 @@
   border: 2px solid white;
 }
 
+.group {
+  border: 2px solid white;
+}
+
 .left {
-  background: hotpink;
   grid-area: left;
 }
 
 .bottom {
-  background: coral;
   grid-area: bottom;
 }
 
 .right {
-  background: steelblue;
   grid-area: right;
 }
 
 .top {
-  background: silver;
   grid-area: top;
 }
 
 .middle {
-  background: red;
   grid-area: middle;
 }

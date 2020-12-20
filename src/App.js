@@ -4,11 +4,11 @@ import Flame from './components/Flame';
 function App() {
   return (
     <div className="App">
-      <div className="left"></div>
-      <div className="bottom"></div>
-      <div className="right"></div>
-      <div className="top"></div>
-      <div className="middle"></div>
+      <div className="group left"></div>
+      <div className="group bottom"></div>
+      <div className="group right"></div>
+      <div className="group top"></div>
+      <div className="group middle"></div>
     </div>
   );
 }
