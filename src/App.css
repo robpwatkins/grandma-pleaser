@@ -29,7 +29,8 @@
   transform: scale(2);
 }
 
-.group {
+.grandma {
+  background: red;
 }
 
 .left {
@@ -37,10 +38,6 @@
   flex-direction: column;
   justify-content: space-between;
   grid-area: left;
-}
-
-.left > .clicked {
-  transform-origin: left;
 }
 
 .bottom {
