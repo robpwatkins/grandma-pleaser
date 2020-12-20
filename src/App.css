@@ -13,9 +13,9 @@
 }
 
 .flame {
-  width: 100px;
-  height: 100px;
-  background: red;
+  width: 15vw;
+  height: 15vh;
+  /* background: red; */
   border: 2px solid white;
 }
 
