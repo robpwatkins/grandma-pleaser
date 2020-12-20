@@ -35,8 +35,7 @@
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
-  padding: 0 100px 0 200px;
-
+  padding: 0 15%;
 }
 
 .right {
@@ -45,14 +44,13 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: flex-end;
-  padding: 75px 0;
 }
 
 .top {
   grid-area: top;
   display: flex;
   justify-content: space-between;
-  padding: 0 100px 0 250px;
+  padding: 0 15%;
 }
 
 .middle {

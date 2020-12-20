@@ -9,10 +9,8 @@ function App() {
         <Flame />
         <Flame />
         <Flame />
-        <Flame />
       </div>
       <div className="group bottom">
-        <Flame />
         <Flame />
         <Flame />
         <Flame />
@@ -21,10 +19,8 @@ function App() {
         <Flame />
         <Flame />
         <Flame />
-        <Flame />
       </div>
       <div className="group top">
-        <Flame />
         <Flame />
         <Flame />
         <Flame />
