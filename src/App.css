@@ -3,3 +3,10 @@
   height: 100vh;
   background: green;
 }
+
+.flame {
+  width: 100px;
+  height: 100px;
+  background: red;
+  border: 2px solid white;
+}
