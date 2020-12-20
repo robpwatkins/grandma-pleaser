@@ -30,7 +30,7 @@
   background: red;
 }
 
-.clicked {
+.active {
   transform: scale(1.25);
 }
 
@@ -41,7 +41,7 @@
   grid-area: left;
 }
 
-.left > .hovered, .left .clicked {
+.left > .hovered, .left .active {
   transform-origin: left;
 }
 
@@ -61,7 +61,7 @@
   padding: 0 15%;
 }
 
-.bottom > .hovered, .bottom .clicked {
+.bottom > .hovered, .bottom .active {
   transform-origin: bottom;
 }
 
@@ -73,7 +73,7 @@
   align-items: flex-end;
 }
 
-.right > .hovered, .right .clicked {
+.right > .hovered, .right .active {
   transform-origin: right;
 }
 
@@ -92,7 +92,7 @@
   padding: 0 15%;
 }
 
-.top .hovered, .top .clicked {
+.top .hovered, .top .active {
   transform-origin: top;
 }
 

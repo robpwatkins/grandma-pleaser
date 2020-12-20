@@ -2,12 +2,12 @@ import React, { useState } from 'react';
 
 export default function Flame({ name }) {
   const [isHovered, setIsHovered] = useState(false);
-  const [isClicked, setIsClicked] = useState(false);
+  const [isActive, setIsActive] = useState(false);
 
   let flameClass = [
     'flame',
     isHovered && 'hovered',
-    isClicked && 'clicked'
+    isActive && 'active'
   ];
   flameClass = flameClass.join(' ');
   
@@ -16,7 +16,7 @@ export default function Flame({ name }) {
       className={flameClass}
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
-      onClick={() => setIsClicked(!isClicked)}
+      onClick={() => setIsActive(!isActive)}
     >
       <h3>{name}</h3>
     </div>
