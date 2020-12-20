@@ -1,8 +1,11 @@
+import { useState } from 'react';
 import './App.css';
 import Flame from './components/Flame';
 import Video from './components/Video';
 
 function App() {
+  // const [isClicked, setIsClicked] = useState(false);
+
   return (
     <div className="App">
       <div className="group left">

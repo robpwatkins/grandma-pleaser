@@ -25,6 +25,10 @@
   border: 2px solid white;
 }
 
+.clicked {
+  transform: scale(2);
+}
+
 .group {
 }
 
@@ -35,12 +39,20 @@
   grid-area: left;
 }
 
+.left > .clicked {
+  transform-origin: left;
+}
+
 .bottom {
   grid-area: bottom;
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
   padding: 0 15%;
+}
+
+.bottom > .clicked {
+  transform-origin: bottom;
 }
 
 .right {
