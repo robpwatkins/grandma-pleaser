@@ -13,15 +13,20 @@
 }
 
 .flame {
+  display: flex;
+  position: relative;
   width: 15vw;
   height: 15vh;
-  /* background: red; */
+  font-size: 2vw;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  background: darkgreen;
   border: 2px solid white;
 }
 
-/* .group {
-  border: 2px solid white;
-} */
+.group {
+}
 
 .left {
   display: flex;
@@ -55,4 +60,14 @@
 
 .middle {
   grid-area: middle;
+}
+
+.video-container {
+  width: 100%;
+  height: 100%;
+}
+
+.video {
+  width: 100%;
+  height: 100%;
 }

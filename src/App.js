@@ -1,31 +1,34 @@
 import './App.css';
 import Flame from './components/Flame';
+import Video from './components/Video';
 
 function App() {
   return (
     <div className="App">
       <div className="group left">
-        <Flame />
-        <Flame />
-        <Flame />
-        <Flame />
+        <Flame name="Grandma" />
+        <Flame name="Katina" />
+        <Flame name="Kay & Gary" />
+        <Flame name="Faith & Ron" />
       </div>
       <div className="group bottom">
-        <Flame />
-        <Flame />
-        <Flame />
+        <Flame name="John, Melanie, Teddy & Josephine" />
+        <Flame name="James & Tricia" />
+        <Flame name="Al & Lea" />
       </div>
       <div className="group right">
-        <Flame />
-        <Flame />
-        <Flame />
+        <Flame name="Paul & Sallie" />
+        <Flame name="Rob & Eileen" />
+        <Flame name="Amy, Matthew, Samual & Luke" />
       </div>
       <div className="group top">
-        <Flame />
-        <Flame />
-        <Flame />
+        <Flame name="Matthew, Leila & Micah" />
+        <Flame name="Hannah, Mark, Aundrea & Joaquin" />
+        <Flame name="Kayla, Darby, Jonas & Ellie" />
       </div>
-      <div className="group middle"></div>
+      <div className="group middle">
+        <Video />
+      </div>
     </div>
   );
 }
