@@ -29,15 +29,23 @@
   transform: scale(2);
 }
 
-.left .flame:nth-child(1) {
-  background: red;
-}
-
 .left {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   grid-area: left;
+}
+
+.left > .clicked {
+  transform-origin: left;
+}
+
+.left .flame:nth-child(1) {
+  transform-origin: top left;
+}
+
+.left .flame:nth-child(4) {
+  transform-origin: bottom left;
 }
 
 .bottom {
@@ -60,11 +68,28 @@
   align-items: flex-end;
 }
 
+.right > .clicked {
+  transform-origin: right;
+}
+
+.right .flame:nth-child(1) {
+  transform-origin: top right;
+}
+
+.right .flame:nth-child(3) {
+  transform-origin: bottom right;
+}
+
 .top {
   grid-area: top;
   display: flex;
   justify-content: space-between;
   padding: 0 15%;
+}
+
+.top > .clicked {
+  transform-origin: top;
+
 }
 
 .middle {
