@@ -4,82 +4,28 @@ import Flame from './components/Flame';
 import Video from './components/Video';
 
 function App() {
-  const [isClicked, setIsClicked] = useState(false);
-
   return (
     <div className="App">
       <div className="group left">
-        <Flame 
-          name="Grandma" 
-          isClicked={isClicked}
-          setIsClicked={setIsClicked}
-          />
-        <Flame 
-          name="Katina" 
-          isClicked={isClicked}
-          setIsClicked={setIsClicked}
-          />
-        <Flame 
-          name="Kay & Gary" 
-          isClicked={isClicked}
-          setIsClicked={setIsClicked}
-          />
-        <Flame 
-          name="Faith & Ron" 
-          isClicked={isClicked}
-          setIsClicked={setIsClicked}
-          />
+        <Flame name="Grandma" />
+        <Flame name="Katina" />
+        <Flame name="Kay & Gary" />
+        <Flame name="Faith & Ron" />
       </div>
       <div className="group bottom">
-        <Flame 
-          name="John, Melanie, Teddy & Josephine" 
-          isClicked={isClicked}
-          setIsClicked={setIsClicked}
-          />
-        <Flame 
-          name="James & Tricia" 
-          isClicked={isClicked}
-          setIsClicked={setIsClicked}
-          />
-        <Flame 
-          name="Al & Lea" 
-          isClicked={isClicked}
-          setIsClicked={setIsClicked}
-          />
+        <Flame name="The Lewises" />
+        <Flame name="James & Tricia" />
+        <Flame name="Al & Lea" />
       </div>
       <div className="group right">
-        <Flame 
-          name="Paul & Sallie" 
-          isClicked={isClicked}
-          setIsClicked={setIsClicked}
-          />
-        <Flame 
-          name="Rob & Eileen" 
-          isClicked={isClicked}
-          setIsClicked={setIsClicked}
-          />
-        <Flame 
-          name="Amy, Matthew, Samual & Luke" 
-          isClicked={isClicked}
-          setIsClicked={setIsClicked}
-          />
+        <Flame name="Paul & Sallie" />
+        <Flame name="Rob & Eileen" />
+        <Flame name="The Irbys" />
       </div>
       <div className="group top">
-        <Flame 
-          name="Matthew, Leila & Micah" 
-          isClicked={isClicked}
-          setIsClicked={setIsClicked}
-          />
-        <Flame 
-          name="Hannah, Mark, Aundrea & Joaquin" 
-          isClicked={isClicked}
-          setIsClicked={setIsClicked}
-          />
-        <Flame 
-          name="Kayla, Darby, Jonas & Ellie" 
-          isClicked={isClicked}
-          setIsClicked={setIsClicked}
-          />
+        <Flame name="The Andersons" />
+        <Flame name="The Hernandezes" />
+        <Flame name="The Hewitts" />
       </div>
       <div className="group middle">
         <Video />

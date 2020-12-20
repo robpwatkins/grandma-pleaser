@@ -22,11 +22,16 @@
   justify-content: center;
   align-items: center;
   background: darkgreen;
-  border: 2px solid white;
+  /* border: 2px solid white; */
+}
+
+.hovered {
+  transform: scale(1.25);
+  background: red;
 }
 
 .clicked {
-  transform: scale(2);
+  transform: scale(1.25);
 }
 
 .left {
@@ -36,7 +41,7 @@
   grid-area: left;
 }
 
-.left > .clicked {
+.left > .hovered, .left .clicked {
   transform-origin: left;
 }
 
@@ -56,7 +61,7 @@
   padding: 0 15%;
 }
 
-.bottom > .clicked {
+.bottom > .hovered, .bottom .clicked {
   transform-origin: bottom;
 }
 
@@ -68,7 +73,7 @@
   align-items: flex-end;
 }
 
-.right > .clicked {
+.right > .hovered, .right .clicked {
   transform-origin: right;
 }
 
@@ -87,9 +92,8 @@
   padding: 0 15%;
 }
 
-.top > .clicked {
+.top .hovered, .top .clicked {
   transform-origin: top;
-
 }
 
 .middle {
