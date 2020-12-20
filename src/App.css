@@ -19,24 +19,40 @@
   border: 2px solid white;
 }
 
-.group {
+/* .group {
   border: 2px solid white;
-}
+} */
 
 .left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   grid-area: left;
 }
 
 .bottom {
   grid-area: bottom;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding: 0 50px 0 175px;
+
 }
 
 .right {
   grid-area: right;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding: 50px 0;
 }
 
 .top {
   grid-area: top;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 50px 0 200px;
 }
 
 .middle {
