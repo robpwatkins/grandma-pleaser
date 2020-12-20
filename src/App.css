@@ -1,6 +1,14 @@
 .App {
+  display: grid;
   width: 100vw;
   height: 100vh;
+  grid-template-columns: 7% 1fr 7%;
+  grid-template-rows: 12% 1fr 12%;
+  grid-template-areas: 
+    "left top     right"
+    "left middle  right"
+    "left bottom  right"
+  ;
   background: green;
 }
 
@@ -9,4 +17,29 @@
   height: 100px;
   background: red;
   border: 2px solid white;
+}
+
+.left {
+  background: hotpink;
+  grid-area: left;
+}
+
+.bottom {
+  background: coral;
+  grid-area: bottom;
+}
+
+.right {
+  background: steelblue;
+  grid-area: right;
+}
+
+.top {
+  background: silver;
+  grid-area: top;
+}
+
+.middle {
+  background: red;
+  grid-area: middle;
 }

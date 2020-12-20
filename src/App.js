@@ -4,11 +4,11 @@ import Flame from './components/Flame';
 function App() {
   return (
     <div className="App">
-      <Flame />
-      <Flame />
-      <Flame />
-      <Flame />
-      <Flame />
+      <div className="left"></div>
+      <div className="bottom"></div>
+      <div className="right"></div>
+      <div className="top"></div>
+      <div className="middle"></div>
     </div>
   );
 }
