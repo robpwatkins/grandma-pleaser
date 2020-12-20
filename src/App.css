@@ -29,7 +29,7 @@
   transform: scale(2);
 }
 
-.grandma {
+.left .flame:nth-child(1) {
   background: red;
 }
 
