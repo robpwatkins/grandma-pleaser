@@ -10,7 +10,7 @@ function App() {
         <Flame name="Grandma" />
         <Flame name="Katina" />
         <Flame name="Kay & Gary" />
-        <Flame name="Faith & Ron" />
+        <Flame name="The Alexanders" />
       </div>
       <div className="group bottom">
         <Flame name="The Lewises" />
