@@ -2,8 +2,8 @@
   display: grid;
   width: 100vw;
   height: 100vh;
-  grid-template-columns: 7% 1fr 7%;
-  grid-template-rows: 12% 1fr 12%;
+  grid-template-columns: 15% 1fr 15%;
+  grid-template-rows: 15% 1fr 15%;
   grid-template-areas: 
     "left top     right"
     "left middle  right"
@@ -26,7 +26,7 @@
 }
 
 .hovered {
-  transform: scale(1.25);
+  transform: rotate(2deg);
   background: red;
 }
 
@@ -58,7 +58,7 @@
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
-  padding: 0 15%;
+  padding: 0 10%;
 }
 
 .bottom > .hovered, .bottom .active {
@@ -89,7 +89,7 @@
   grid-area: top;
   display: flex;
   justify-content: space-between;
-  padding: 0 15%;
+  padding: 0 10%;
 }
 
 .top .hovered, .top .active {
