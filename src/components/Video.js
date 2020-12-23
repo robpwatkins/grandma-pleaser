@@ -3,7 +3,7 @@ import React from 'react';
 
 export default function Video() {
   return (
-    <div className="video-test">
+    <div className="video-container">
       <video 
         controls
         autoPlay
