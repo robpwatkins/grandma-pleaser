@@ -1,19 +1,22 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useRef } from 'react';
 
 export default function Video( {time} ) {
 
-  console.log(time);
+  const vidRef = useRef();
+  
+  useEffect(() => {
+    vidRef.current.currentTime = time;
+  })
+
   return (
     <div className="video-container">
-      <iframe 
-        src={`http://player.vimeo.com/video/494305872?autoplay=1&#t=${time}s`} 
-        width="640" 
-        height="360"
-        frameborder="0"
-        allow="autoplay; fullscreen"
-        allowFullScreen
+      <video 
+        controls 
+        autoPlay 
+        src="https://player.vimeo.com/external/494483863.sd.mp4?s=068af5fc408b83ad576296cb9c7fc562f67392b3&profile_id=165"
+        ref={vidRef}
       >
-      </iframe>
+      </video>
     </div>
   )
 }
