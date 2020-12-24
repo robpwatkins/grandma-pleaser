@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import candle from '../img/CandlePlaceholder.png';
 
-export default function Flame({ name, t, setTime }) {
+export default function Flame({ name, t, setPosition }) {
   const [isHovered, setIsHovered] = useState(false);
   const [isActive, setIsActive] = useState(false);
 
@@ -19,7 +19,7 @@ export default function Flame({ name, t, setTime }) {
       onMouseLeave={() => setIsHovered(false)}
       onClick={() => {
         setIsActive(!isActive)
-        setTime(t);
+        setPosition(t);
         }
       }
     >
