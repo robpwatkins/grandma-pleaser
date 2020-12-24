@@ -5,6 +5,7 @@ export default function Video( {position, setCurrentTime} ) {
   
   useEffect(() => {
     vidRef.current.currentTime = position;
+    vidRef.current.play();
   }, [position])
 
   return (
