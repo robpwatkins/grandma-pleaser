@@ -41,7 +41,7 @@
 }
 
 .flame:hover {
-  transform: scale(1.1);
+  transform: scale(1.15);
 }
 
 .flame > img {
@@ -63,9 +63,10 @@
   /* background: red; */
 }
 
-.active {
+/* .active {
   transform: scale(1.25);
-}
+  background: hotpink;
+} */
 
 .left {
   display: flex;
