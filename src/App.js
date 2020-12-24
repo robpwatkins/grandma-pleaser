@@ -11,7 +11,7 @@ function App() {
     <div className="App">
       <div className="group left">
         <Flame 
-          name="Play from Start"
+          name="Play from start"
           setPosition={setPosition}
           currentTime={currentTime}
           window={[0, 4.99]}
