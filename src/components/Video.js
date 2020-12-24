@@ -1,17 +1,21 @@
-import React from 'react';
+import React, { useEffect } from 'react';
+import Vid from '../video/JohnMelTeddyJosephine.mp4';
 // import Vid from '../video/GrandmaPleaser2020(Unfinished).mov';
 
-export default function Video() {
+
+export default function Video( {time} ) {
+  
   return (
     <div className="video-container">
-      <video 
-        controls
-        autoPlay
-        loop
-        // src={Vid}
-        onTimeUpdate={event => console.log(event)}
-      >  
-      </video>
+      <iframe 
+        width="560" 
+        height="315" 
+        src={`https://www.youtube.com/embed/uKZkclNewFM?rel=0&&autoplay=1&start=${time}`} 
+        frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+        allowfullscreen="true"
+      >
+      </iframe>
     </div>
   )
 }

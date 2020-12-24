@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
+import candle from '../img/CandlePlaceholder.png';
 
-export default function Flame({ name }) {
+export default function Flame({ name, t, setTime }) {
   const [isHovered, setIsHovered] = useState(false);
   const [isActive, setIsActive] = useState(false);
 
@@ -16,8 +17,13 @@ export default function Flame({ name }) {
       className={flameClass}
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
-      onClick={() => setIsActive(!isActive)}
+      onClick={() => {
+        setIsActive(!isActive)
+        setTime(t);
+        }
+      }
     >
+      <img src={candle} alt=""/>
       <h3>{name}</h3>
     </div>
   )
