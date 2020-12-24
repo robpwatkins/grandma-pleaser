@@ -7,7 +7,6 @@ function App() {
   const [position, setPosition] = useState(0);
   const [currentTime, setCurrentTime] = useState(0);
 
-  console.log(currentTime);
   return (
     <div className="App">
       <div className="group left">
@@ -91,7 +90,7 @@ function App() {
         >
           <Flame 
             setPosition={setPosition} 
-            name="Download From Google Drive" 
+            name="Download" 
           />
         </a>
       </div>

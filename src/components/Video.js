@@ -1,7 +1,6 @@
 import React, { useEffect, useRef } from 'react';
 
 export default function Video( {position, setCurrentTime} ) {
-
   const vidRef = useRef();
   
   useEffect(() => {
