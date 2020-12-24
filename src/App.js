@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="App">
       <div className="group left">
-        <Flame />
+        <Flame name="Play from Start" />
         <Flame name="Katina" />
         <Flame name="Kay & Gary" />
         <Flame name="The Alexanders" />
@@ -21,7 +21,7 @@ function App() {
         <Flame name="Paul & Sallie" />
         <Flame name="Rob & Eileen" />
         <Flame name="The Irbys" />
-        <Flame />
+        <Flame name="Download Video" />
       </div>
       <div className="group top">
         <Flame name="The Andersons" />
