@@ -16,10 +16,7 @@ export default function Flame({ window, currentTime, setPosition, name }) {
     <div
       style={isActive ? {transform: 'scale(1.15)'} : null}
       className='flame'
-      onClick={() => {
-        window && setPosition(window[0]);
-        }
-      }
+      onClick={() => window && setPosition(window[0])}
     >
       <img src={candle} alt=""/>
       <h3>{name}</h3>
