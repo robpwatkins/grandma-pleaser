@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import candle from '../img/CandlePlaceholder.png';
 
-export default function Flame({ name, t, setPosition, currentTime, window }) {
+export default function Flame({ window, currentTime, setPosition, name }) {
   const [isActive, setIsActive] = useState(false);
 
   useEffect(() => {
@@ -10,14 +10,14 @@ export default function Flame({ name, t, setPosition, currentTime, window }) {
         setIsActive(true);
       } else setIsActive(false);
     }
-  })
+  }, [window, currentTime, setIsActive])
   
   return (
     <div
       style={isActive ? {transform: 'scale(1.15)'} : null}
       className='flame'
       onClick={() => {
-        t && setPosition(t);
+        window && setPosition(window[0]);
         }
       }
     >
