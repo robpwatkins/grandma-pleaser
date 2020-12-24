@@ -6,7 +6,6 @@ import Video from './components/Video';
 function App() {
   const [time, setTime] = useState(0);
 
-  console.log(time);
   return (
     <div className="App">
       <div className="group left">

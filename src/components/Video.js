@@ -1,15 +1,16 @@
 import React, { useEffect } from 'react';
 
 export default function Video( {time} ) {
-  
+
+  console.log(time);
   return (
     <div className="video-container">
       <iframe 
-        width="560" 
-        height="315" 
-        src={`https://www.youtube.com/embed/uKZkclNewFM?rel=0&start=${time}`} 
-        frameBorder="0" 
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+        src={`http://player.vimeo.com/video/494305872?autoplay=1&#t=${time}s`} 
+        width="640" 
+        height="360"
+        frameborder="0"
+        allow="autoplay; fullscreen"
         allowFullScreen
       >
       </iframe>
