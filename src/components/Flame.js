@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import candle from '../img/CandlePlaceholder.png';
+import candle from '../img/candleFinal.png';
 import Banner from '../img/banner.png';
 
 export default function Flame({ window, currentTime, setPosition, name }) {
