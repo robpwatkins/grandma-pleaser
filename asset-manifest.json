@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/grandma-pleaser/static/css/main.61bf13e7.chunk.css",
-    "main.js": "/grandma-pleaser/static/js/main.92442fad.chunk.js",
-    "main.js.map": "/grandma-pleaser/static/js/main.92442fad.chunk.js.map",
+    "main.js": "/grandma-pleaser/static/js/main.277500a0.chunk.js",
+    "main.js.map": "/grandma-pleaser/static/js/main.277500a0.chunk.js.map",
     "runtime-main.js": "/grandma-pleaser/static/js/runtime-main.5b1fd46c.js",
     "runtime-main.js.map": "/grandma-pleaser/static/js/runtime-main.5b1fd46c.js.map",
     "static/js/2.73eeb1ce.chunk.js": "/grandma-pleaser/static/js/2.73eeb1ce.chunk.js",
@@ -33,6 +33,6 @@
     "static/js/runtime-main.5b1fd46c.js",
     "static/js/2.73eeb1ce.chunk.js",
     "static/css/main.61bf13e7.chunk.css",
-    "static/js/main.92442fad.chunk.js"
+    "static/js/main.277500a0.chunk.js"
   ]
 }
