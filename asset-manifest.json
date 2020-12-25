@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/grandma-pleaser/static/css/main.61bf13e7.chunk.css",
-    "main.js": "/grandma-pleaser/static/js/main.1d5702e0.chunk.js",
-    "main.js.map": "/grandma-pleaser/static/js/main.1d5702e0.chunk.js.map",
+    "main.js": "/grandma-pleaser/static/js/main.92442fad.chunk.js",
+    "main.js.map": "/grandma-pleaser/static/js/main.92442fad.chunk.js.map",
     "runtime-main.js": "/grandma-pleaser/static/js/runtime-main.5b1fd46c.js",
     "runtime-main.js.map": "/grandma-pleaser/static/js/runtime-main.5b1fd46c.js.map",
     "static/js/2.73eeb1ce.chunk.js": "/grandma-pleaser/static/js/2.73eeb1ce.chunk.js",
@@ -12,15 +12,15 @@
     "index.html": "/grandma-pleaser/index.html",
     "static/css/main.61bf13e7.chunk.css.map": "/grandma-pleaser/static/css/main.61bf13e7.chunk.css.map",
     "static/js/2.73eeb1ce.chunk.js.LICENSE.txt": "/grandma-pleaser/static/js/2.73eeb1ce.chunk.js.LICENSE.txt",
-    "static/media/CandlePlaceholder.d0d4e639.png": "/grandma-pleaser/static/media/CandlePlaceholder.d0d4e639.png",
-    "static/media/alLea.a2fdfc30.png": "/grandma-pleaser/static/media/alLea.a2fdfc30.png",
+    "static/media/alLea.531619dc.png": "/grandma-pleaser/static/media/alLea.531619dc.png",
     "static/media/banner.901ef8ee.png": "/grandma-pleaser/static/media/banner.901ef8ee.png",
+    "static/media/candleFinal.ad6d55ed.png": "/grandma-pleaser/static/media/candleFinal.ad6d55ed.png",
     "static/media/download.193a027f.png": "/grandma-pleaser/static/media/download.193a027f.png",
     "static/media/jamesTricia.935ea005.png": "/grandma-pleaser/static/media/jamesTricia.935ea005.png",
     "static/media/katina.8dc07601.png": "/grandma-pleaser/static/media/katina.8dc07601.png",
-    "static/media/kayGary.3101ac9b.png": "/grandma-pleaser/static/media/kayGary.3101ac9b.png",
+    "static/media/kayGary.e895755d.png": "/grandma-pleaser/static/media/kayGary.e895755d.png",
     "static/media/paulSallie.d74911c2.png": "/grandma-pleaser/static/media/paulSallie.d74911c2.png",
-    "static/media/robEileen.1aa809bc.png": "/grandma-pleaser/static/media/robEileen.1aa809bc.png",
+    "static/media/robEileen.653de059.png": "/grandma-pleaser/static/media/robEileen.653de059.png",
     "static/media/startOver.5fdaf037.png": "/grandma-pleaser/static/media/startOver.5fdaf037.png",
     "static/media/theAlexanders.f492a474.png": "/grandma-pleaser/static/media/theAlexanders.f492a474.png",
     "static/media/theAndersons.b28651d9.png": "/grandma-pleaser/static/media/theAndersons.b28651d9.png",
@@ -33,6 +33,6 @@
     "static/js/runtime-main.5b1fd46c.js",
     "static/js/2.73eeb1ce.chunk.js",
     "static/css/main.61bf13e7.chunk.css",
-    "static/js/main.1d5702e0.chunk.js"
+    "static/js/main.92442fad.chunk.js"
   ]
 }
