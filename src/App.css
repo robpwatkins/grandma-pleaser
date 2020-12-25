@@ -51,11 +51,28 @@
   transform: scale(1.15);
 }
 
-.flame > img {
+.candle {
+  /* position: absolute; */
+  height: 18vh;
+  width: 11vw;
+  z-index: 1;
+}
+
+.banner {
   position: absolute;
   height: auto;
-  width: 13vw;
-  z-index: 1;
+  width: 21vw;
+  top: 9vh;
+  left: -2vw;
+  z-index: 2;
+}
+
+.name {
+  position: absolute;
+  width: 10vw;
+  top: 10vh;
+  left: 3vw;
+  z-index: 3;
 }
 
 .flame > h3 {

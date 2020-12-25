@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
-import candle from '../img/CandlePlaceholder.png';
+import candle from '../img/candle.png';
+import Banner from '../img/banner.png';
 
 export default function Flame({ window, currentTime, setPosition, name }) {
   const [isActive, setIsActive] = useState(false);
@@ -18,8 +19,9 @@ export default function Flame({ window, currentTime, setPosition, name }) {
       className='flame'
       onClick={() => window && setPosition(window[0])}
     >
-      <img src={candle} alt=""/>
-      <h3>{name}</h3>
+      <img className="candle" src={candle} alt=""/>
+      <img className="banner" src={Banner} alt=""/>
+      <img className="name" src={name} alt=""/>
     </div>
   )
 }

@@ -2,6 +2,18 @@ import { useState } from 'react';
 import './App.css';
 import Flame from './components/Flame';
 import Video from './components/Video';
+import katina from './img/katina.png';
+import kayGary from './img/kayGary.png';
+import theAlexanders from './img/theAlexanders.png';
+import theLewises from './img/theLewises.png';
+import jamesTricia from './img/jamesTricia.png';
+import alLea from './img/alLea.png';
+import theIrbys from './img/theIrbys.png';
+import robEileen from './img/robEileen.png';
+import paulSallie from './img/paulSallie.png';
+import theHewitts from './img/theHewitts.png';
+import theHernandezes from './img/theHernandezes.png';
+import theAndersons from './img/theAndersons.png';
 
 function App() {
   const [position, setPosition] = useState(0);
@@ -17,19 +29,19 @@ function App() {
           window={[0, 4.99]}
         />
         <Flame 
-          name="Katina" 
+          name={katina} 
           setPosition={setPosition} 
           currentTime={currentTime}
           window={[5, 9.99]}
         />
         <Flame 
-          name="Kay & Gary" 
+          name={kayGary}
           setPosition={setPosition} 
           currentTime={currentTime}
           window={[10, 14.99]}
         />
         <Flame 
-          name="The Alexanders" 
+          name={theAlexanders}
           setPosition={setPosition} 
           currentTime={currentTime}
           window={[15, 19.99]}
@@ -37,19 +49,19 @@ function App() {
       </div>
       <div className="group bottom">
         <Flame 
-          name="The Lewises" 
+          name={theLewises}
           setPosition={setPosition} 
           currentTime={currentTime}
           window={[20, 24.99]}
         />
         <Flame 
-          name="James & Tricia" 
+          name={jamesTricia} 
           setPosition={setPosition} 
           currentTime={currentTime}
           window={[25, 29.99]}
         />
         <Flame 
-          name="Al & Lea" 
+          name={alLea}
           setPosition={setPosition} 
           currentTime={currentTime}
           window={[30, 34.99]}
@@ -57,19 +69,19 @@ function App() {
       </div>
       <div className="group right">
         <Flame 
-          name="Paul & Sallie" 
+          name={paulSallie}
           setPosition={setPosition} 
           currentTime={currentTime}
           window={[45, 49.99]}
         />
         <Flame 
-          name="Rob & Eileen" 
+          name={robEileen}
           setPosition={setPosition} 
           currentTime={currentTime}
           window={[40, 44.99]}
         />
         <Flame 
-          name="The Irbys" 
+          name={theIrbys}
           setPosition={setPosition} 
           currentTime={currentTime}
           window={[35, 39.99]}
@@ -86,19 +98,19 @@ function App() {
       </div>
       <div className="group top">
         <Flame 
-          name="The Andersons" 
+          name={theAndersons}
           setPosition={setPosition} 
           currentTime={currentTime}
           window={[53, 53.99]}
         />
         <Flame 
-          name="The Hernandezes" 
+          name={theHernandezes}
           setPosition={setPosition} 
           currentTime={currentTime}
           window={[52, 52.99]}
         />
         <Flame 
-          name="The Hewitts" 
+          name={theHewitts}
           setPosition={setPosition} 
           currentTime={currentTime}
           window={[50, 51.99]}
