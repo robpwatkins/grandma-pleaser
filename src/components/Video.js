@@ -13,7 +13,7 @@ export default function Video( {position, setCurrentTime} ) {
       <video 
         controls 
         autoPlay
-        src="https://player.vimeo.com/external/494483863.sd.mp4?s=068af5fc408b83ad576296cb9c7fc562f67392b3&profile_id=165"
+        src="https://player.vimeo.com/external/494571538.sd.mp4?s=effffcec64932e0801bcf4772bf5b4631cde259c&profile_id=164"
         ref={vidRef}
         onTimeUpdate={() => setCurrentTime(vidRef.current.currentTime)}
       >

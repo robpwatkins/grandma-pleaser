@@ -2,6 +2,8 @@ import { useState } from 'react';
 import './App.css';
 import Flame from './components/Flame';
 import Video from './components/Video';
+import startOver from './img/startOver.png';
+import download from './img/download.png';
 import katina from './img/katina.png';
 import kayGary from './img/kayGary.png';
 import theAlexanders from './img/theAlexanders.png';
@@ -23,28 +25,28 @@ function App() {
     <div className="App">
       <div className="group left">
         <Flame 
-          name="Play from start"
+          name={startOver}
           setPosition={setPosition}
           currentTime={currentTime}
-          window={[0, 4.99]}
+          window={[0.0001, 6.99]}
         />
         <Flame 
           name={katina} 
           setPosition={setPosition} 
           currentTime={currentTime}
-          window={[5, 9.99]}
+          window={[7, 246]}
         />
         <Flame 
           name={kayGary}
           setPosition={setPosition} 
           currentTime={currentTime}
-          window={[10, 14.99]}
+          window={[247, 323]}
         />
         <Flame 
           name={theAlexanders}
           setPosition={setPosition} 
           currentTime={currentTime}
-          window={[15, 19.99]}
+          window={[326, 363]}
         />
       </div>
       <div className="group bottom">
@@ -52,19 +54,19 @@ function App() {
           name={theLewises}
           setPosition={setPosition} 
           currentTime={currentTime}
-          window={[20, 24.99]}
+          window={[393, 449]}
         />
         <Flame 
           name={jamesTricia} 
           setPosition={setPosition} 
           currentTime={currentTime}
-          window={[25, 29.99]}
+          window={[450, 493]}
         />
         <Flame 
           name={alLea}
           setPosition={setPosition} 
           currentTime={currentTime}
-          window={[30, 34.99]}
+          window={[495, 636]}
         />
       </div>
       <div className="group right">
@@ -72,19 +74,19 @@ function App() {
           name={paulSallie}
           setPosition={setPosition} 
           currentTime={currentTime}
-          window={[45, 49.99]}
+          window={[793, 870]}
         />
         <Flame 
           name={robEileen}
           setPosition={setPosition} 
           currentTime={currentTime}
-          window={[40, 44.99]}
+          window={[707, 793]}
         />
         <Flame 
           name={theIrbys}
           setPosition={setPosition} 
           currentTime={currentTime}
-          window={[35, 39.99]}
+          window={[637, 706]}
         />
         <a 
           href="https://drive.google.com/uc?export=download&id=1tTgmiGSspvrHj81QJ6I0BFnsF5RP85uj"
@@ -92,7 +94,7 @@ function App() {
         >
           <Flame 
             setPosition={setPosition} 
-            name="Download" 
+            name={download}
           />
         </a>
       </div>
@@ -101,19 +103,19 @@ function App() {
           name={theAndersons}
           setPosition={setPosition} 
           currentTime={currentTime}
-          window={[53, 53.99]}
+          window={[1054, 1109]}
         />
         <Flame 
           name={theHernandezes}
           setPosition={setPosition} 
           currentTime={currentTime}
-          window={[52, 52.99]}
+          window={[960, 1054]}
         />
         <Flame 
           name={theHewitts}
           setPosition={setPosition} 
           currentTime={currentTime}
-          window={[50, 51.99]}
+          window={[871, 960]}
         />
       </div>
       <div className="group middle">
