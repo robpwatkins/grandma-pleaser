@@ -28,25 +28,25 @@ function App() {
           name={startOver}
           setPosition={setPosition}
           currentTime={currentTime}
-          window={[0.0001, 6.99]}
+          window={[0.0001, 7]}
         />
         <Flame 
           name={katina} 
           setPosition={setPosition} 
           currentTime={currentTime}
-          window={[7, 246]}
+          window={[7, 247]}
         />
         <Flame 
           name={kayGary}
           setPosition={setPosition} 
           currentTime={currentTime}
-          window={[247, 323]}
+          window={[247, 326]}
         />
         <Flame 
           name={theAlexanders}
           setPosition={setPosition} 
           currentTime={currentTime}
-          window={[326, 363]}
+          window={[326, 393]}
         />
       </div>
       <div className="group bottom">
@@ -54,19 +54,19 @@ function App() {
           name={theLewises}
           setPosition={setPosition} 
           currentTime={currentTime}
-          window={[393, 449]}
+          window={[393, 450]}
         />
         <Flame 
           name={jamesTricia} 
           setPosition={setPosition} 
           currentTime={currentTime}
-          window={[450, 493]}
+          window={[450, 495]}
         />
         <Flame 
           name={alLea}
           setPosition={setPosition} 
           currentTime={currentTime}
-          window={[495, 636]}
+          window={[495, 637]}
         />
       </div>
       <div className="group right">
@@ -74,7 +74,7 @@ function App() {
           name={paulSallie}
           setPosition={setPosition} 
           currentTime={currentTime}
-          window={[793, 870]}
+          window={[793, 871]}
         />
         <Flame 
           name={robEileen}
@@ -86,7 +86,7 @@ function App() {
           name={theIrbys}
           setPosition={setPosition} 
           currentTime={currentTime}
-          window={[637, 706]}
+          window={[637, 707]}
         />
         <a 
           href="https://drive.google.com/uc?export=download&id=1wBoMibsFZq_FJejOHPOWLy1IwPDeVKct"
