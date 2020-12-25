@@ -25,25 +25,25 @@ function App() {
     <div className="App">
       <div className="group left">
         <Flame 
-          name={startOver}
+          placard={startOver}
           setPosition={setPosition}
           currentTime={currentTime}
           window={[0.0001, 7]}
         />
         <Flame 
-          name={katina} 
+          placard={katina} 
           setPosition={setPosition} 
           currentTime={currentTime}
           window={[7, 247]}
         />
         <Flame 
-          name={kayGary}
+          placard={kayGary}
           setPosition={setPosition} 
           currentTime={currentTime}
           window={[247, 326]}
         />
         <Flame 
-          name={theAlexanders}
+          placard={theAlexanders}
           setPosition={setPosition} 
           currentTime={currentTime}
           window={[326, 393]}
@@ -51,19 +51,19 @@ function App() {
       </div>
       <div className="group bottom">
         <Flame 
-          name={theLewises}
+          placard={theLewises}
           setPosition={setPosition} 
           currentTime={currentTime}
           window={[393, 450]}
         />
         <Flame 
-          name={jamesTricia} 
+          placard={jamesTricia} 
           setPosition={setPosition} 
           currentTime={currentTime}
           window={[450, 495]}
         />
         <Flame 
-          name={alLea}
+          placard={alLea}
           setPosition={setPosition} 
           currentTime={currentTime}
           window={[495, 637]}
@@ -71,19 +71,19 @@ function App() {
       </div>
       <div className="group right">
         <Flame 
-          name={paulSallie}
+          placard={paulSallie}
           setPosition={setPosition} 
           currentTime={currentTime}
           window={[793, 871]}
         />
         <Flame 
-          name={robEileen}
+          placard={robEileen}
           setPosition={setPosition} 
           currentTime={currentTime}
           window={[707, 793]}
         />
         <Flame 
-          name={theIrbys}
+          placard={theIrbys}
           setPosition={setPosition} 
           currentTime={currentTime}
           window={[637, 707]}
@@ -94,25 +94,25 @@ function App() {
         >
           <Flame 
             setPosition={setPosition} 
-            name={download}
+            placard={download}
           />
         </a>
       </div>
       <div className="group top">
         <Flame 
-          name={theAndersons}
+          placard={theAndersons}
           setPosition={setPosition} 
           currentTime={currentTime}
           window={[1054, 1109]}
         />
         <Flame 
-          name={theHernandezes}
+          placard={theHernandezes}
           setPosition={setPosition} 
           currentTime={currentTime}
           window={[960, 1054]}
         />
         <Flame 
-          name={theHewitts}
+          placard={theHewitts}
           setPosition={setPosition} 
           currentTime={currentTime}
           window={[871, 960]}
