@@ -70,24 +70,6 @@ function App() {
         />
       </div>
       <div className="group right">
-        <Flame 
-          placard={paulSallie}
-          setPosition={setPosition} 
-          currentTime={currentTime}
-          window={[793, 871]}
-        />
-        <Flame 
-          placard={robEileen}
-          setPosition={setPosition} 
-          currentTime={currentTime}
-          window={[707, 793]}
-        />
-        <Flame 
-          placard={theIrbys}
-          setPosition={setPosition} 
-          currentTime={currentTime}
-          window={[637, 707]}
-        />
         <a 
           href="https://drive.google.com/uc?export=download&id=1wBoMibsFZq_FJejOHPOWLy1IwPDeVKct"
           target="_none"
@@ -97,13 +79,31 @@ function App() {
             placard={download}
           />
         </a>
+        <Flame 
+          placard={theIrbys}
+          setPosition={setPosition} 
+          currentTime={currentTime}
+          window={[637, 707]}
+        />
+        <Flame 
+          placard={robEileen}
+          setPosition={setPosition} 
+          currentTime={currentTime}
+          window={[707, 793]}
+        />
+        <Flame 
+          placard={paulSallie}
+          setPosition={setPosition} 
+          currentTime={currentTime}
+          window={[793, 871]}
+        />
       </div>
       <div className="group top">
         <Flame 
-          placard={theAndersons}
+          placard={theHewitts}
           setPosition={setPosition} 
           currentTime={currentTime}
-          window={[1054, 1109]}
+          window={[871, 960]}
         />
         <Flame 
           placard={theHernandezes}
@@ -112,10 +112,10 @@ function App() {
           window={[960, 1054]}
         />
         <Flame 
-          placard={theHewitts}
+          placard={theAndersons}
           setPosition={setPosition} 
           currentTime={currentTime}
-          window={[871, 960]}
+          window={[1054, 1109]}
         />
       </div>
       <div className="group middle">
